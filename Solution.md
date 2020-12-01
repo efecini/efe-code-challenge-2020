@@ -10,7 +10,7 @@ You can get the JSON response from  ```/getfee```
 - Go the project folder
 - Run docker
 - Build the project: ```docker-compose build```
-- Run the project: ```docker-compose up```
+- Run the project: ```docker-compose up``` (Some multiple runs may be necessary.)
 - Go to end point : [externaly owned accounts]: http://localhost:8080/getHourlyEthFeeBetweenEOA
 
 # Technical Choices
