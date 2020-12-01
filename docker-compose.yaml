@@ -6,5 +6,19 @@ services:
       POSTGRES_DB: eth
       POSTGRES_USER: test
       POSTGRES_PASSWORD: test
+    container_name: database-container
     ports:
-      - "5432:5432"
+      - "5432"
+
+  rest-api:
+    build: rest-api
+    environment: 
+      PGHOST: database-container
+      PGDATABASE: eth
+      PGUSER: test
+      PGPASSWORD: test
+    container_name: rest-api-container
+    depends_on:
+      - database
+    ports:
+      - "8080:8080"

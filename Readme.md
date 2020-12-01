@@ -67,11 +67,10 @@ the service implementation language (but prefereably it should be [golang][]).
 
 - We respect your time and the challenge is designed in such a way as not to
   take more than 3-4 hours.
-- To work on solution you need to install [git-lfs][] first, because database
-  dump in this repo template is uploaded using git-lfs.
-- Generate a repository for your solution from the provided [template][] ("Use this template"
-  button on github), and us a link to your repo when you're done.
-- In your repo create `Solution.md` with a description of your reasoning
+- To clone this project you need to install [git-lfs][] first.
+- Start by forking this repo and send us a link to your repo solution when
+  you're done.
+- In your forked repo create `Solution.md` with a description of your reasoning
   behind technical choices: trade-offs you might have made, anything you left out,
   or what you might do differently if you would had additional time.
 
@@ -81,4 +80,4 @@ the service implementation language (but prefereably it should be [golang][]).
 [gastracker]: https://etherscan.io/gastracker
 [docker-compose docs]: https://docs.docker.com/compose/
 [git-lfs]: https://github.com/git-lfs/git-lfs/wiki/Installation
-[template]: https://github.com/glassnode/code-challenge-2020/generate
+
